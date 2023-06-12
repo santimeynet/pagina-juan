@@ -1,0 +1,32 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+
+body {
+  font-family: 'Poppins', sans-serif; }
+
+.container {
+  background-color: transparent; }
+
+body header {
+  color: white; }
+  body header .bg-navbar {
+    background-image: url(../img/fotos-web/banner-dos.jpg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 28rem; }
+    body header .bg-navbar .banner div {
+      justify-content: center;
+      align-items: center; }
+      body header .bg-navbar .banner div p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7rem;
+        font-size: 4rem;
+        font-weight: bold; }

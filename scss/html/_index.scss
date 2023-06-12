@@ -1,0 +1,28 @@
+@import "../variables/mixin";
+@import "../variables/extend";
+@import "../variables/vars";
+
+// estilos del index
+body{
+    header{
+        color: $color-header;
+        .bg-navbar{
+            background-image: url(../img/fotos-web/banner-dos.jpg);
+            background-color: transparent;
+            @include bg;
+            height: 28rem;
+            .banner{
+                div{
+                    @include centrar;
+                    p{
+                        display: flex;
+                        @include centrar;
+                        margin-top: 7rem;
+                        font-size: 4rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
