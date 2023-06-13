@@ -44,3 +44,343 @@ body header {
         margin-top: 8rem;
         font-size: 3.8rem;
         font-weight: bold; }
+
+body main .section-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem; }
+  body main .section-titulo h2 {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold; }
+
+body main .section-subtitulo {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem; }
+  body main .section-subtitulo .p-subtitulo {
+    text-align: center;
+    color: black;
+    margin-top: 3rem; }
+
+body main .img-home {
+  display: flex;
+  padding: 5rem; }
+  body main .img-home .container-img {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem; }
+    body main .img-home .container-img .img-flex {
+      margin-bottom: 1.3rem;
+      width: 70%;
+      height: auto; }
+
+body main .section-banner-dos {
+  background-image: url(../img/fotos-web/banner-uno.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 38rem;
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+  body main .section-banner-dos .texto-banner-dos {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white; }
+    body main .section-banner-dos .texto-banner-dos h2 {
+      font-size: 5rem;
+      font-weight: bold; }
+
+body footer {
+  background-color: #38383B;
+  height: 8rem;
+  color: white;
+  text-align: center;
+  padding-top: 2rem; }
+  body footer p {
+    margin-top: 1rem; }
+
+body header .bg-navbar-store {
+  background-image: url(../img/fotos-web/banner-store.jpg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10rem; }
+  body header .bg-navbar-store .nav .div .btn-bt {
+    border: none !important;
+    color: white; }
+  body header .bg-navbar-store .nav .div .div-nav {
+    display: flex;
+    align-items: center; }
+    body header .bg-navbar-store .nav .div .div-nav .img-logo {
+      width: 55px;
+      height: 55px; }
+    body header .bg-navbar-store .nav .div .div-nav .a-nav {
+      color: white;
+      font-weight: bold;
+      font-size: 2.2rem;
+      margin-left: 1rem; }
+  body header .bg-navbar-store .banner-store div {
+    justify-content: center;
+    align-items: center; }
+    body header .bg-navbar-store .banner-store div p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.5rem;
+      font-weight: bold; }
+
+body main {
+  margin-bottom: 10rem; }
+  body main .section-titulo-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem; }
+    body main .section-titulo-store h2 {
+      color: black;
+      font-size: 3rem;
+      font-weight: bold; }
+  body main .section-productos {
+    margin-top: 3rem; }
+    body main .section-productos p {
+      text-align: center; }
+      body main .section-productos p a {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        padding-right: 2rem; }
+      body main .section-productos p .space {
+        margin-right: 2rem;
+        color: rgba(128, 128, 128, 0.555); }
+  body main .linea {
+    border-top: 1px solid rgba(128, 128, 128, 0.575);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem; }
+  body main .img-home {
+    justify-content: space-around; }
+    body main .img-home .container-img {
+      display: block;
+      color: black;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-image: url(../img/med-pouch/med-pouch-uno.png);
+      margin-bottom: 1.3rem;
+      width: 300px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s; }
+      body main .img-home .container-img .image {
+        position: relative;
+        padding-bottom: 100%; }
+    body main .img-home .container-img:hover {
+      background-image: url(../img/med-pouch/med-pouch-dos.png); }
+    body main .img-home .container-img-dos {
+      display: block;
+      color: black;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-image: url(../img/pouch-pistola/pouch-pistola-uno.png);
+      margin-bottom: 1.3rem;
+      width: 300px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s; }
+      body main .img-home .container-img-dos .image {
+        position: relative;
+        padding-bottom: 100%; }
+    body main .img-home .container-img-dos:hover {
+      background-image: url(../img/pouch-pistola/pouch-pistola-dos.png); }
+    body main .img-home .container-img-tres {
+      display: block;
+      color: black;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-image: url(../img/cinto-dos/cinto-home.png);
+      margin-bottom: 1.3rem;
+      width: 300px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s; }
+      body main .img-home .container-img-tres .image {
+        position: relative;
+        padding-bottom: 100%; }
+    body main .img-home .container-img-tres:hover {
+      background-image: url(../img/cinto-dos/cinto-dos.png); }
+    body main .img-home .container-img-cuatro {
+      display: block;
+      color: black;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-image: url(../img/chest-mk4/chest-rig-uno.png);
+      margin-bottom: 1.3rem;
+      width: 300px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s; }
+      body main .img-home .container-img-cuatro .image {
+        position: relative;
+        padding-bottom: 100%; }
+    body main .img-home .container-img-cuatro:hover {
+      background-image: url(../img/chest-mk4/chest-rig-dos.png); }
+    body main .img-home .container-img-cinco {
+      display: block;
+      color: black;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-image: url(../img/fpc5/chaleco-home.png);
+      margin-bottom: 1.3rem;
+      width: 300px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s; }
+      body main .img-home .container-img-cinco .image {
+        position: relative;
+        padding-bottom: 100%; }
+    body main .img-home .container-img-cinco:hover {
+      background-image: url(../img/fpc5/chaleco-dos.png); }
+    body main .img-home .container-img-seis {
+      display: block;
+      color: black;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-image: url(../img/cinto/cinto-home.png);
+      margin-bottom: 1.3rem;
+      width: 300px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s; }
+      body main .img-home .container-img-seis .image {
+        position: relative;
+        padding-bottom: 100%; }
+    body main .img-home .container-img-seis:hover {
+      background-image: url(../img/cinto/cinto-dos.png); }
+    body main .img-home .container-img-siete {
+      display: block;
+      color: black;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-image: url(../img/pouch-cierre/pouch-cierre.png);
+      margin-bottom: 1.3rem;
+      width: 300px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s; }
+      body main .img-home .container-img-siete .image {
+        position: relative;
+        padding-bottom: 100%; }
+    body main .img-home .container-img-siete:hover {
+      background-image: url(../img/pouch-cierre/pouch-cierre.png); }
+    body main .img-home .container-img-ocho {
+      display: block;
+      color: black;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-image: url(../img/pouch-cierre/pouch-verde.png);
+      margin-bottom: 1.3rem;
+      width: 300px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s; }
+      body main .img-home .container-img-ocho .image {
+        position: relative;
+        padding-bottom: 100%; }
+    body main .img-home .container-img-ocho:hover {
+      background-image: url(../img/pouch-cierre/pouch-verde-dos.png); }
+    body main .img-home .container-img-nueve {
+      display: block;
+      color: black;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-image: url(../img/doble-mag-inserto/doble-mag-uno.png);
+      margin-bottom: 1.3rem;
+      width: 300px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s; }
+      body main .img-home .container-img-nueve .image {
+        position: relative;
+        padding-bottom: 100%; }
+    body main .img-home .container-img-nueve:hover {
+      background-image: url(../img/doble-mag-inserto/doble-mag-dos.png); }
+    body main .img-home .container-img-diez {
+      display: block;
+      color: black;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-image: url(../img/dangler/dangler-uno.png);
+      margin-bottom: 1.3rem;
+      width: 300px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s; }
+      body main .img-home .container-img-diez .image {
+        position: relative;
+        padding-bottom: 100%; }
+    body main .img-home .container-img-diez:hover {
+      background-image: url(../img/dangler/dangler-dos.png); }
+    body main .img-home .container-img-once {
+      display: block;
+      color: black;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-image: url(../img/chest-rig-uno/chest-home.png);
+      margin-bottom: 1.3rem;
+      width: 300px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s; }
+      body main .img-home .container-img-once .image {
+        position: relative;
+        padding-bottom: 100%; }
+    body main .img-home .container-img-once:hover {
+      background-image: url(../img/chest-rig-uno/chest-dos.png); }
+    body main .img-home .container-img-doce {
+      display: block;
+      color: black;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-image: url(../img/plate-carrier-slim/plate-carrier.png);
+      margin-bottom: 1.3rem;
+      width: 300px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s; }
+      body main .img-home .container-img-doce .image {
+        position: relative;
+        padding-bottom: 100%; }
+    body main .img-home .container-img-doce:hover {
+      background-image: url(../img/plate-carrier-slim/plate-carrier-dos.png); }

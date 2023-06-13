@@ -1,0 +1,220 @@
+@import "../variables/mixin";
+@import "../variables/extend";
+@import "../variables/vars";
+
+//estilos de store
+body{
+    header{
+        .bg-navbar-store{
+            background-image: url(../img/fotos-web/banner-store.jpg);
+            background-color: transparent;
+            @include bg;
+            height: 10rem;
+            .nav{
+                .div{
+                    .btn-bt{
+                        border: none !important;
+                        color: white;
+                    }
+                    .div-nav{
+                        display: flex;
+                        align-items: center;
+                        .img-logo{
+                            width: 55px;
+                            height: 55px;
+                        }
+                        .a-nav{
+                            color: $color-header;
+                            font-weight: bold;
+                            font-size: 2.2rem;
+                            margin-left: 1rem;
+                        }
+                    }
+                    
+                }
+            }    
+            .banner-store{
+                div{
+                    @include centrar;
+                    p{
+                        display: flex;
+                        @include centrar;
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                    }
+                }
+            }  
+        }
+    }
+    main{
+        margin-bottom: 10rem;
+        .section-titulo-store{
+            display: flex;
+            @include centrar;
+            margin-top: 3rem;
+            h2{
+                color: black;
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+        .section-productos{
+            margin-top: 3rem;
+            p{
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    list-style: none;
+                    color: black;
+                    padding-right: 2rem;
+                }
+                .space{
+                    margin-right: 2rem;
+                    color: rgba(128, 128, 128, 0.555);
+                }
+            }
+        }
+        .linea{
+            border-top: 1px solid rgba(128, 128, 128, 0.575);
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+        }
+        .img-home{
+            justify-content: space-around;
+            .container-img{
+                @include text-prod;
+                .image{
+                    position: relative;
+                    padding-bottom: 100%;
+                }
+                @include img-productos (url(../img/med-pouch/med-pouch-uno.png))
+            }
+            .container-img:hover{
+                background-image: url(../img/med-pouch/med-pouch-dos.png);
+            }
+            .container-img-dos{
+                @include text-prod;
+                .image{
+                    position: relative;
+                    padding-bottom: 100%;
+                }
+                @include img-productos (url(../img/pouch-pistola/pouch-pistola-uno.png))
+            }
+            .container-img-dos:hover{
+                background-image: url(../img/pouch-pistola/pouch-pistola-dos.png);
+            }
+            .container-img-tres{
+                @include text-prod;
+                .image{
+                    position: relative;
+                    padding-bottom: 100%;
+                }
+                @include img-productos (url(../img/cinto-dos/cinto-home.png))
+            }
+            .container-img-tres:hover{
+                background-image: url(../img/cinto-dos/cinto-dos.png);
+            }
+            .container-img-cuatro{
+                @include text-prod;
+                @include img-productos (url(../img/chest-mk4/chest-rig-uno.png));
+                .image{
+                    position: relative;
+                    padding-bottom: 100%;
+                }
+            }
+            .container-img-cuatro:hover{
+                background-image: url(../img/chest-mk4/chest-rig-dos.png);
+            }
+            .container-img-cinco{
+                @include text-prod;
+                @include img-productos (url(../img/fpc5/chaleco-home.png));
+                .image{
+                    position: relative;
+                    padding-bottom: 100%;
+                }
+            }
+            .container-img-cinco:hover{
+                background-image: url(../img/fpc5/chaleco-dos.png);
+            }
+            .container-img-seis{
+                @include text-prod;
+                @include img-productos (url(../img/cinto/cinto-home.png));
+                .image{
+                    position: relative;
+                    padding-bottom: 100%;
+                }
+            }
+            .container-img-seis:hover{
+                background-image: url(../img/cinto/cinto-dos.png);
+            }
+            .container-img-siete{
+                @include text-prod;
+                @include img-productos (url(../img/pouch-cierre/pouch-cierre.png));
+                .image{
+                    position: relative;
+                    padding-bottom: 100%;
+                }
+            }
+            .container-img-siete:hover{
+                background-image: url(../img/pouch-cierre/pouch-cierre.png);
+            }
+            .container-img-ocho{
+                @include text-prod;
+                @include img-productos (url(../img/pouch-cierre/pouch-verde.png));
+                .image{
+                    position: relative;
+                    padding-bottom: 100%;
+                }
+            }
+            .container-img-ocho:hover{
+                background-image: url(../img/pouch-cierre/pouch-verde-dos.png);
+            }
+            .container-img-nueve{
+                @include text-prod;
+                @include img-productos (url(../img/doble-mag-inserto/doble-mag-uno.png));
+                .image{
+                    position: relative;
+                    padding-bottom: 100%;
+                }
+            }
+            .container-img-nueve:hover{
+                background-image: url(../img/doble-mag-inserto/doble-mag-dos.png);
+            }
+            .container-img-diez{
+                @include text-prod;
+                @include img-productos (url(../img/dangler/dangler-uno.png));
+                .image{
+                    position: relative;
+                    padding-bottom: 100%;
+                }
+            }
+            .container-img-diez:hover{
+                background-image: url(../img/dangler/dangler-dos.png);
+            }
+            .container-img-once{
+                @include text-prod;
+                @include img-productos (url(../img/chest-rig-uno/chest-home.png));
+                .image{
+                    position: relative;
+                    padding-bottom: 100%;
+                }
+            }
+            .container-img-once:hover{
+                background-image: url(../img/chest-rig-uno/chest-dos.png);
+            }
+            .container-img-doce{
+                @include text-prod;
+                @include img-productos (url(../img/plate-carrier-slim/plate-carrier.png));
+                .image{
+                    position: relative;
+                    padding-bottom: 100%;
+                }
+            }
+            .container-img-doce:hover{
+                background-image: url(../img/plate-carrier-slim/plate-carrier-dos.png);
+            }
+        }
+    }
+}
