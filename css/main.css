@@ -20,6 +20,20 @@ body header {
     background-size: cover;
     background-position: center;
     height: 28rem; }
+    body header .bg-navbar .nav .div .btn-bt {
+      border: none !important;
+      color: white; }
+    body header .bg-navbar .nav .div .div-nav {
+      display: flex;
+      align-items: center; }
+      body header .bg-navbar .nav .div .div-nav .img-logo {
+        width: 55px;
+        height: 55px; }
+      body header .bg-navbar .nav .div .div-nav .a-nav {
+        color: white;
+        font-weight: bold;
+        font-size: 2.2rem;
+        margin-left: 1rem; }
     body header .bg-navbar .banner div {
       justify-content: center;
       align-items: center; }
@@ -27,6 +41,6 @@ body header {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 7rem;
-        font-size: 4rem;
+        margin-top: 8rem;
+        font-size: 3.8rem;
         font-weight: bold; }
