@@ -137,38 +137,38 @@ body header .bg-navbar-store {
       font-size: 2.5rem;
       font-weight: bold; }
 
-body main {
+body .main-store {
   margin-bottom: 10rem; }
-  body main .section-titulo-store {
+  body .main-store .section-titulo-store {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3rem; }
-    body main .section-titulo-store h2 {
+    body .main-store .section-titulo-store h2 {
       color: black;
       font-size: 3rem;
       font-weight: bold; }
-  body main .section-productos {
+  body .main-store .section-productos {
     margin-top: 3rem; }
-    body main .section-productos p {
+    body .main-store .section-productos p {
       text-align: center; }
-      body main .section-productos p a {
+      body .main-store .section-productos p a {
         text-decoration: none;
         list-style: none;
         color: black;
         padding-right: 2rem; }
-      body main .section-productos p .space {
+      body .main-store .section-productos p .space {
         margin-right: 2rem;
         color: rgba(128, 128, 128, 0.555); }
-  body main .linea {
+  body .main-store .linea {
     border-top: 1px solid rgba(128, 128, 128, 0.575);
     width: 80%;
     margin: 0 auto;
     margin-top: 3rem;
     margin-bottom: 2rem; }
-  body main .img-home {
+  body .main-store .img-home {
     justify-content: space-around; }
-    body main .img-home .container-img {
+    body .main-store .img-home .container-img {
       display: block;
       color: black;
       text-align: center;
@@ -181,12 +181,12 @@ body main {
       background-size: cover;
       background-position: center;
       transition: 0.7s; }
-      body main .img-home .container-img .image {
+      body .main-store .img-home .container-img .image {
         position: relative;
         padding-bottom: 100%; }
-    body main .img-home .container-img:hover {
+    body .main-store .img-home .container-img:hover {
       background-image: url(../img/med-pouch/med-pouch-dos.png); }
-    body main .img-home .container-img-dos {
+    body .main-store .img-home .container-img-dos {
       display: block;
       color: black;
       text-align: center;
@@ -199,12 +199,12 @@ body main {
       background-size: cover;
       background-position: center;
       transition: 0.7s; }
-      body main .img-home .container-img-dos .image {
+      body .main-store .img-home .container-img-dos .image {
         position: relative;
         padding-bottom: 100%; }
-    body main .img-home .container-img-dos:hover {
+    body .main-store .img-home .container-img-dos:hover {
       background-image: url(../img/pouch-pistola/pouch-pistola-dos.png); }
-    body main .img-home .container-img-tres {
+    body .main-store .img-home .container-img-tres {
       display: block;
       color: black;
       text-align: center;
@@ -217,12 +217,12 @@ body main {
       background-size: cover;
       background-position: center;
       transition: 0.7s; }
-      body main .img-home .container-img-tres .image {
+      body .main-store .img-home .container-img-tres .image {
         position: relative;
         padding-bottom: 100%; }
-    body main .img-home .container-img-tres:hover {
+    body .main-store .img-home .container-img-tres:hover {
       background-image: url(../img/cinto-dos/cinto-dos.png); }
-    body main .img-home .container-img-cuatro {
+    body .main-store .img-home .container-img-cuatro {
       display: block;
       color: black;
       text-align: center;
@@ -235,12 +235,12 @@ body main {
       background-size: cover;
       background-position: center;
       transition: 0.7s; }
-      body main .img-home .container-img-cuatro .image {
+      body .main-store .img-home .container-img-cuatro .image {
         position: relative;
         padding-bottom: 100%; }
-    body main .img-home .container-img-cuatro:hover {
+    body .main-store .img-home .container-img-cuatro:hover {
       background-image: url(../img/chest-mk4/chest-rig-dos.png); }
-    body main .img-home .container-img-cinco {
+    body .main-store .img-home .container-img-cinco {
       display: block;
       color: black;
       text-align: center;
@@ -253,12 +253,12 @@ body main {
       background-size: cover;
       background-position: center;
       transition: 0.7s; }
-      body main .img-home .container-img-cinco .image {
+      body .main-store .img-home .container-img-cinco .image {
         position: relative;
         padding-bottom: 100%; }
-    body main .img-home .container-img-cinco:hover {
+    body .main-store .img-home .container-img-cinco:hover {
       background-image: url(../img/fpc5/chaleco-dos.png); }
-    body main .img-home .container-img-seis {
+    body .main-store .img-home .container-img-seis {
       display: block;
       color: black;
       text-align: center;
@@ -271,12 +271,12 @@ body main {
       background-size: cover;
       background-position: center;
       transition: 0.7s; }
-      body main .img-home .container-img-seis .image {
+      body .main-store .img-home .container-img-seis .image {
         position: relative;
         padding-bottom: 100%; }
-    body main .img-home .container-img-seis:hover {
+    body .main-store .img-home .container-img-seis:hover {
       background-image: url(../img/cinto/cinto-dos.png); }
-    body main .img-home .container-img-siete {
+    body .main-store .img-home .container-img-siete {
       display: block;
       color: black;
       text-align: center;
@@ -289,12 +289,12 @@ body main {
       background-size: cover;
       background-position: center;
       transition: 0.7s; }
-      body main .img-home .container-img-siete .image {
+      body .main-store .img-home .container-img-siete .image {
         position: relative;
         padding-bottom: 100%; }
-    body main .img-home .container-img-siete:hover {
+    body .main-store .img-home .container-img-siete:hover {
       background-image: url(../img/pouch-cierre/pouch-cierre.png); }
-    body main .img-home .container-img-ocho {
+    body .main-store .img-home .container-img-ocho {
       display: block;
       color: black;
       text-align: center;
@@ -307,12 +307,12 @@ body main {
       background-size: cover;
       background-position: center;
       transition: 0.7s; }
-      body main .img-home .container-img-ocho .image {
+      body .main-store .img-home .container-img-ocho .image {
         position: relative;
         padding-bottom: 100%; }
-    body main .img-home .container-img-ocho:hover {
+    body .main-store .img-home .container-img-ocho:hover {
       background-image: url(../img/pouch-cierre/pouch-verde-dos.png); }
-    body main .img-home .container-img-nueve {
+    body .main-store .img-home .container-img-nueve {
       display: block;
       color: black;
       text-align: center;
@@ -325,12 +325,12 @@ body main {
       background-size: cover;
       background-position: center;
       transition: 0.7s; }
-      body main .img-home .container-img-nueve .image {
+      body .main-store .img-home .container-img-nueve .image {
         position: relative;
         padding-bottom: 100%; }
-    body main .img-home .container-img-nueve:hover {
+    body .main-store .img-home .container-img-nueve:hover {
       background-image: url(../img/doble-mag-inserto/doble-mag-dos.png); }
-    body main .img-home .container-img-diez {
+    body .main-store .img-home .container-img-diez {
       display: block;
       color: black;
       text-align: center;
@@ -343,12 +343,12 @@ body main {
       background-size: cover;
       background-position: center;
       transition: 0.7s; }
-      body main .img-home .container-img-diez .image {
+      body .main-store .img-home .container-img-diez .image {
         position: relative;
         padding-bottom: 100%; }
-    body main .img-home .container-img-diez:hover {
+    body .main-store .img-home .container-img-diez:hover {
       background-image: url(../img/dangler/dangler-dos.png); }
-    body main .img-home .container-img-once {
+    body .main-store .img-home .container-img-once {
       display: block;
       color: black;
       text-align: center;
@@ -361,12 +361,12 @@ body main {
       background-size: cover;
       background-position: center;
       transition: 0.7s; }
-      body main .img-home .container-img-once .image {
+      body .main-store .img-home .container-img-once .image {
         position: relative;
         padding-bottom: 100%; }
-    body main .img-home .container-img-once:hover {
+    body .main-store .img-home .container-img-once:hover {
       background-image: url(../img/chest-rig-uno/chest-dos.png); }
-    body main .img-home .container-img-doce {
+    body .main-store .img-home .container-img-doce {
       display: block;
       color: black;
       text-align: center;
@@ -379,8 +379,8 @@ body main {
       background-size: cover;
       background-position: center;
       transition: 0.7s; }
-      body main .img-home .container-img-doce .image {
+      body .main-store .img-home .container-img-doce .image {
         position: relative;
         padding-bottom: 100%; }
-    body main .img-home .container-img-doce:hover {
+    body .main-store .img-home .container-img-doce:hover {
       background-image: url(../img/plate-carrier-slim/plate-carrier-dos.png); }

@@ -1,0 +1,22 @@
+//imports
+@import "../variables/mixin";
+@import "../variables/extend";
+@import "../variables/vars";
+
+//estilos de producto uno
+.body-productos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+    main{
+        .prod{
+            .img-prod{
+                width: 350px;
+                height: 450px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
