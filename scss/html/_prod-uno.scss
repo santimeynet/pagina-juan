@@ -146,3 +146,42 @@
 .active{
     opacity: 1 !important;
 }
+
+/* media querie para producto*/
+@media screen and (max-width: 480px){
+    .body-productos{
+        .main_productos{
+            display: block;
+            .prod-description{
+                display: none;
+            }
+            .div-medio{
+                display: block;
+                .prod{
+                    margin-left: 0px;
+                    width: 80%;
+                    .img_prod{
+                        width: 120%;
+                        height: 400px;
+                    }
+                    .thumbnail_container{
+                        width: 430px;
+                    }
+                }
+                .prod-caract{
+                    width: 90%;
+                    margin-left: 1rem;
+                    .prod-nombre{
+                        margin-bottom: 3rem;
+                        p{
+                            font-size: 2rem;
+                        }
+                    }
+                    .caract{
+                        margin-top: 3rem;
+                    }
+                }
+            }
+        }
+    }
+}

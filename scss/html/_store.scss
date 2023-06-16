@@ -90,7 +90,7 @@ body{
                     position: relative;
                     padding-bottom: 100%;
                 }
-                @include img-productos(url(../../img/med-pouch/med-pouch-uno.PNG))
+                @include img-productos(url(../img/med-pouch/med-pouch-uno.png))
             }
             .container-img:hover{
                 background-image: url(../img/med-pouch/med-pouch-dos.png);
@@ -215,6 +215,103 @@ body{
             }
             .container-img-doce:hover{
                 background-image: url(../img/plate-carrier-slim/plate-carrier-dos.png);
+            }
+        }
+    }
+}
+
+/* media querie para store*/
+@media screen and (max-width: 480px){
+    body{
+        header{
+            .bg-navbar-store{
+                height: 14rem;
+                .banner-store{
+                    div{
+                        p{
+                            margin-top: 3rem;
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+                .nav{
+                    .div{
+                        .div-nav{
+                            .a-nav{
+                                font-size: 1.6rem;
+                            }
+                        }
+                        .btn-bt{
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+        .main-store{
+            .section-titulo-store{
+                h2{
+                    font-size: 2.5rem;
+                    margin-left: 0.5rem;
+                    text-align: center;
+                }
+            }
+            .section-subtitulo{
+                margin: 0.5rem;
+                .p-subtitulo{
+                    margin-top: 0.8rem;
+                }
+            }
+            .img-home{
+                margin-top: 1rem;
+                display: block;
+                padding: 3rem;
+            }
+            .section-banner-dos{
+                .texto-banner-dos{
+                    h2{
+                        font-size: 3rem;
+                    }
+                    p{
+                        font-size: 0.93rem;
+                        margin-top: 2rem;
+                    }
+                }
+            }
+            .img-home{
+                .container-img{
+                    margin-bottom: 8rem;
+                }
+                .container-img-dos{
+                    margin-bottom: 8rem;
+                }
+                .container-img-tres{
+                    margin-bottom: 3rem;
+                }
+                .container-img-cuatro{
+                    margin-bottom: 8rem;
+                }
+                .container-img-cinco{
+                    margin-bottom: 6rem;
+                }
+                .container-img-seis{
+                    margin-bottom: 1rem;
+                }
+                .container-img-siete{
+                    margin-bottom: 6rem;
+                }
+                .container-img-ocho{
+                    margin-bottom: 6rem;
+                }
+                .container-img-nueve{
+                    margin-bottom: 3rem;
+                }
+                .container-img-diez{
+                    margin-bottom: 10rem;
+                }
+                .container-img-once{
+                    margin-bottom: 10rem;
+                }
             }
         }
     }

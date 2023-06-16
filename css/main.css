@@ -209,7 +209,7 @@ body .main-store {
       text-align: center;
       font-size: 1.2rem;
       font-weight: bold;
-      background-image: url(../../img/med-pouch/med-pouch-uno.PNG);
+      background-image: url(../img/med-pouch/med-pouch-uno.png);
       margin-bottom: 1.3rem;
       width: 300px;
       height: 300px;
@@ -420,6 +420,57 @@ body .main-store {
     body .main-store .img-home .container-img-doce:hover {
       background-image: url(../img/plate-carrier-slim/plate-carrier-dos.png); }
 
+/* media querie para store*/
+@media screen and (max-width: 480px) {
+  body header .bg-navbar-store {
+    height: 14rem; }
+    body header .bg-navbar-store .banner-store div p {
+      margin-top: 3rem;
+      font-size: 1.6rem; }
+    body header .bg-navbar-store .nav .div .div-nav .a-nav {
+      font-size: 1.6rem; }
+    body header .bg-navbar-store .nav .div .btn-bt {
+      font-size: 1.2rem; }
+  body .main-store .section-titulo-store h2 {
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
+    text-align: center; }
+  body .main-store .section-subtitulo {
+    margin: 0.5rem; }
+    body .main-store .section-subtitulo .p-subtitulo {
+      margin-top: 0.8rem; }
+  body .main-store .img-home {
+    margin-top: 1rem;
+    display: block;
+    padding: 3rem; }
+  body .main-store .section-banner-dos .texto-banner-dos h2 {
+    font-size: 3rem; }
+  body .main-store .section-banner-dos .texto-banner-dos p {
+    font-size: 0.93rem;
+    margin-top: 2rem; }
+  body .main-store .img-home .container-img {
+    margin-bottom: 8rem; }
+  body .main-store .img-home .container-img-dos {
+    margin-bottom: 8rem; }
+  body .main-store .img-home .container-img-tres {
+    margin-bottom: 3rem; }
+  body .main-store .img-home .container-img-cuatro {
+    margin-bottom: 8rem; }
+  body .main-store .img-home .container-img-cinco {
+    margin-bottom: 6rem; }
+  body .main-store .img-home .container-img-seis {
+    margin-bottom: 1rem; }
+  body .main-store .img-home .container-img-siete {
+    margin-bottom: 6rem; }
+  body .main-store .img-home .container-img-ocho {
+    margin-bottom: 6rem; }
+  body .main-store .img-home .container-img-nueve {
+    margin-bottom: 3rem; }
+  body .main-store .img-home .container-img-diez {
+    margin-bottom: 10rem; }
+  body .main-store .img-home .container-img-once {
+    margin-bottom: 10rem; } }
+
 .body-productos {
   min-height: 100vh;
   background-color: white; }
@@ -535,3 +586,29 @@ body .main-store {
 
 .active {
   opacity: 1 !important; }
+
+/* media querie para producto*/
+@media screen and (max-width: 480px) {
+  .body-productos .main_productos {
+    display: block; }
+    .body-productos .main_productos .prod-description {
+      display: none; }
+    .body-productos .main_productos .div-medio {
+      display: block; }
+      .body-productos .main_productos .div-medio .prod {
+        margin-left: 0px;
+        width: 80%; }
+        .body-productos .main_productos .div-medio .prod .img_prod {
+          width: 120%;
+          height: 400px; }
+        .body-productos .main_productos .div-medio .prod .thumbnail_container {
+          width: 430px; }
+      .body-productos .main_productos .div-medio .prod-caract {
+        width: 90%;
+        margin-left: 1rem; }
+        .body-productos .main_productos .div-medio .prod-caract .prod-nombre {
+          margin-bottom: 3rem; }
+          .body-productos .main_productos .div-medio .prod-caract .prod-nombre p {
+            font-size: 2rem; }
+        .body-productos .main_productos .div-medio .prod-caract .caract {
+          margin-top: 3rem; } }
