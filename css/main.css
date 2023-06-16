@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none; }
 
 body {
   font-family: 'Poppins', sans-serif; }
@@ -74,6 +75,10 @@ body main .img-home {
     display: block;
     text-align: center;
     font-size: 1.2rem; }
+    body main .img-home .container-img a {
+      list-style: none;
+      text-decoration: none;
+      color: black; }
     body main .img-home .container-img .img-flex {
       margin-bottom: 1.3rem;
       width: 70%;
@@ -105,6 +110,35 @@ body footer {
   padding-top: 2rem; }
   body footer p {
     margin-top: 1rem; }
+
+/* media querie para index*/
+@media screen and (max-width: 480px) {
+  body header .bg-navbar {
+    height: 14rem; }
+    body header .bg-navbar .banner div p {
+      margin-top: 3rem;
+      font-size: 1.6rem; }
+    body header .bg-navbar .nav .div .div-nav .a-nav {
+      font-size: 1.6rem; }
+    body header .bg-navbar .nav .div .btn-bt {
+      font-size: 1.2rem; }
+  body main .section-titulo h2 {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    text-align: center; }
+  body main .section-subtitulo {
+    margin: 0.5rem; }
+    body main .section-subtitulo .p-subtitulo {
+      margin-top: 0.8rem; }
+  body main .img-home {
+    margin-top: 1rem;
+    display: block;
+    padding: 3rem; }
+  body main .section-banner-dos .texto-banner-dos h2 {
+    font-size: 3rem; }
+  body main .section-banner-dos .texto-banner-dos p {
+    font-size: 0.93rem;
+    margin-top: 2rem; } }
 
 body header .bg-navbar-store {
   background-image: url(../img/fotos-web/banner-store.jpg);
@@ -138,7 +172,8 @@ body header .bg-navbar-store {
       font-weight: bold; }
 
 body .main-store {
-  margin-bottom: 10rem; }
+  margin-bottom: 10rem;
+  width: 100vw; }
   body .main-store .section-titulo-store {
     display: flex;
     justify-content: center;
@@ -174,7 +209,7 @@ body .main-store {
       text-align: center;
       font-size: 1.2rem;
       font-weight: bold;
-      background-image: url(../img/med-pouch/med-pouch-uno.png);
+      background-image: url(../../img/med-pouch/med-pouch-uno.PNG);
       margin-bottom: 1.3rem;
       width: 300px;
       height: 300px;
@@ -384,3 +419,119 @@ body .main-store {
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-doce:hover {
       background-image: url(../img/plate-carrier-slim/plate-carrier-dos.png); }
+
+.body-productos {
+  min-height: 100vh;
+  background-color: white; }
+  .body-productos .main_productos {
+    display: flex;
+    flex-wrap: wrap; }
+    .body-productos .main_productos .prod-description {
+      margin-top: 3rem;
+      margin-left: 3rem;
+      display: flex;
+      align-items: center;
+      flex-basis: 100%; }
+      .body-productos .main_productos .prod-description .a {
+        text-decoration: none;
+        color: black; }
+      .body-productos .main_productos .prod-description .prod-titulo {
+        font-size: 1.5rem;
+        margin-bottom: 0.2rem; }
+      .body-productos .main_productos .prod-description .prod-name {
+        margin-bottom: 0;
+        color: black;
+        white-space: nowrap; }
+    .body-productos .main_productos .div-medio {
+      display: flex; }
+      .body-productos .main_productos .div-medio .prod {
+        flex-basis: 50%;
+        margin-left: 8rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem; }
+        .body-productos .main_productos .div-medio .prod .img_prod {
+          width: 500px;
+          height: 500px;
+          margin-bottom: 20px;
+          overflow: hidden; }
+          .body-productos .main_productos .div-medio .prod .img_prod .img_principal {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6 ease; }
+          .body-productos .main_productos .div-medio .prod .img_prod .img_principal:hover {
+            transform: scale(1.2); }
+        .body-productos .main_productos .div-medio .prod .thumbnail_container {
+          height: 5rem;
+          width: 500px;
+          display: flex;
+          justify-content: space-between; }
+          .body-productos .main_productos .div-medio .prod .thumbnail_container .thumbnail {
+            width: 5rem;
+            height: 5rem;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: 0.3s; }
+          .body-productos .main_productos .div-medio .prod .thumbnail_container .thumbnail:hover {
+            opacity: 1; }
+      .body-productos .main_productos .div-medio .prod-caract {
+        width: 50%;
+        margin-top: 10rem;
+        font-size: 1.5rem;
+        color: black;
+        flex-basis: 50%; }
+        .body-productos .main_productos .div-medio .prod-caract .prod-nombre {
+          font-size: 2.5rem;
+          font-weight: bold; }
+        .body-productos .main_productos .div-medio .prod-caract .container {
+          padding-left: 0; }
+          .body-productos .main_productos .div-medio .prod-caract .container .title {
+            cursor: pointer;
+            background-color: #ffffff;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+          .body-productos .main_productos .div-medio .prod-caract .container .title-dos {
+            cursor: pointer;
+            background-color: #ffffff;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+          .body-productos .main_productos .div-medio .prod-caract .container .content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out; }
+            .body-productos .main_productos .div-medio .prod-caract .container .content ul .li-prod {
+              font-size: 1rem;
+              margin-bottom: 1rem;
+              margin-top: 1rem; }
+        .body-productos .main_productos .div-medio .prod-caract .buy-button {
+          display: block;
+          width: 50%;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          padding: 10px;
+          color: white;
+          background-color: #8f8e8e;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-weight: bold;
+          transition: opacity 0.2s ease-in-out; }
+        .body-productos .main_productos .div-medio .prod-caract .buy-button:hover {
+          opacity: 0.6; }
+    .body-productos .main_productos .podria-gustarte {
+      margin-left: 3rem; }
+      .body-productos .main_productos .podria-gustarte .titulo-prod {
+        font-size: 2.5rem;
+        color: black;
+        font-weight: bold; }
+
+.active {
+  opacity: 1 !important; }

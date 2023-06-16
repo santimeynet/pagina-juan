@@ -48,6 +48,7 @@ body{
     }
     .main-store{
         margin-bottom: 10rem;
+        width: 100vw;
         .section-titulo-store{
             display: flex;
             @include centrar;
@@ -89,7 +90,7 @@ body{
                     position: relative;
                     padding-bottom: 100%;
                 }
-                @include img-productos (url(../img/med-pouch/med-pouch-uno.png))
+                @include img-productos(url(../../img/med-pouch/med-pouch-uno.PNG))
             }
             .container-img:hover{
                 background-image: url(../img/med-pouch/med-pouch-dos.png);
@@ -100,7 +101,7 @@ body{
                     position: relative;
                     padding-bottom: 100%;
                 }
-                @include img-productos (url(../img/pouch-pistola/pouch-pistola-uno.png))
+                @include img-productos(url(../img/pouch-pistola/pouch-pistola-uno.png))
             }
             .container-img-dos:hover{
                 background-image: url(../img/pouch-pistola/pouch-pistola-dos.png);
@@ -111,14 +112,14 @@ body{
                     position: relative;
                     padding-bottom: 100%;
                 }
-                @include img-productos (url(../img/cinto-dos/cinto-home.png))
+                @include img-productos(url(../img/cinto-dos/cinto-home.png))
             }
             .container-img-tres:hover{
                 background-image: url(../img/cinto-dos/cinto-dos.png);
             }
             .container-img-cuatro{
                 @include text-prod;
-                @include img-productos (url(../img/chest-mk4/chest-rig-uno.png));
+                @include img-productos(url(../img/chest-mk4/chest-rig-uno.png));
                 .image{
                     position: relative;
                     padding-bottom: 100%;
@@ -129,7 +130,7 @@ body{
             }
             .container-img-cinco{
                 @include text-prod;
-                @include img-productos (url(../img/fpc5/chaleco-home.png));
+                @include img-productos(url(../img/fpc5/chaleco-home.png));
                 .image{
                     position: relative;
                     padding-bottom: 100%;
@@ -140,7 +141,7 @@ body{
             }
             .container-img-seis{
                 @include text-prod;
-                @include img-productos (url(../img/cinto/cinto-home.png));
+                @include img-productos(url(../img/cinto/cinto-home.png));
                 .image{
                     position: relative;
                     padding-bottom: 100%;
@@ -151,7 +152,7 @@ body{
             }
             .container-img-siete{
                 @include text-prod;
-                @include img-productos (url(../img/pouch-cierre/pouch-cierre.png));
+                @include img-productos(url(../img/pouch-cierre/pouch-cierre.png));
                 .image{
                     position: relative;
                     padding-bottom: 100%;
@@ -162,7 +163,7 @@ body{
             }
             .container-img-ocho{
                 @include text-prod;
-                @include img-productos (url(../img/pouch-cierre/pouch-verde.png));
+                @include img-productos(url(../img/pouch-cierre/pouch-verde.png));
                 .image{
                     position: relative;
                     padding-bottom: 100%;
@@ -173,7 +174,7 @@ body{
             }
             .container-img-nueve{
                 @include text-prod;
-                @include img-productos (url(../img/doble-mag-inserto/doble-mag-uno.png));
+                @include img-productos(url(../img/doble-mag-inserto/doble-mag-uno.png));
                 .image{
                     position: relative;
                     padding-bottom: 100%;
@@ -184,7 +185,7 @@ body{
             }
             .container-img-diez{
                 @include text-prod;
-                @include img-productos (url(../img/dangler/dangler-uno.png));
+                @include img-productos(url(../img/dangler/dangler-uno.png));
                 .image{
                     position: relative;
                     padding-bottom: 100%;
@@ -195,7 +196,7 @@ body{
             }
             .container-img-once{
                 @include text-prod;
-                @include img-productos (url(../img/chest-rig-uno/chest-home.png));
+                @include img-productos(url(../img/chest-rig-uno/chest-home.png));
                 .image{
                     position: relative;
                     padding-bottom: 100%;
@@ -206,7 +207,7 @@ body{
             }
             .container-img-doce{
                 @include text-prod;
-                @include img-productos (url(../img/plate-carrier-slim/plate-carrier.png));
+                @include img-productos(url(../img/plate-carrier-slim/plate-carrier.png));
                 .image{
                     position: relative;
                     padding-bottom: 100%;

@@ -1,22 +1,148 @@
 //imports
-@import "../variables/mixin";
-@import "../variables/extend";
-@import "../variables/vars";
 
 //estilos de producto uno
 .body-productos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-height: 100vh;
     background-color: white;
-    main{
-        .prod{
-            .img-prod{
-                width: 350px;
-                height: 450px;
-                margin-bottom: 20px;
+    .main_productos{
+        display: flex;
+        flex-wrap: wrap;
+        .prod-description{
+            margin-top: 3rem;
+            margin-left: 3rem;
+            display: flex;
+            align-items: center;
+            flex-basis: 100%;
+            .a{
+                text-decoration: none;
+                color: black;
+            }
+            .prod-titulo{
+                font-size: 1.5rem;
+                margin-bottom: 0.2rem;
+            }
+            .prod-name{
+                margin-bottom: 0;
+                color: black;
+                white-space: nowrap;
             }
         }
+        .div-medio{
+            display: flex;
+            .prod{
+                flex-basis: 50%;
+                margin-left: 8rem;
+                margin-top: 5rem;
+                margin-bottom: 5rem;
+                .img_prod{
+                    width: 500px;
+                    height: 500px;
+                    margin-bottom: 20px;
+                    overflow: hidden;
+                    .img_principal{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        transition: transform 0.6 ease;
+                    }
+                    .img_principal:hover{
+                        transform: scale(1.2);
+                    }
+                }
+                .thumbnail_container{
+                    height: 5rem;
+                    width: 500px;
+                    display: flex;
+                    justify-content: space-between;
+                    .thumbnail{
+                        width: 5rem;
+                        height: 5rem;
+                        cursor: pointer;
+                        opacity: 0.7;
+                        transition: 0.3s;
+                    }
+                    .thumbnail:hover{
+                        opacity: 1;
+                    }
+                }
+            }
+            .prod-caract{
+                width: 50%;
+                margin-top: 10rem;
+                font-size: 1.5rem;
+                color: black;
+                flex-basis: 50%;
+                .prod-nombre{
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                }
+                .container{
+                    padding-left: 0;
+                    .title{
+                        cursor: pointer;
+                        background-color: #ffffff;
+                        padding: 10px;
+                        border-top: 1px solid #ccc;
+                        border-radius: 4px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .title-dos{
+                        cursor: pointer;
+                        background-color: #ffffff;
+                        padding: 10px;
+                        border-top: 1px solid #ccc;
+                        border-bottom: 1px solid #ccc;
+                        border-radius: 4px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .content{
+                        max-height: 0;
+                        overflow: hidden;
+                        transition: max-height 0.2s ease-out;
+                        ul{
+                            .li-prod{
+                                font-size: 1rem;
+                                margin-bottom: 1rem;
+                                margin-top: 1rem;
+                            }
+                        }
+                    }  
+                }
+                .buy-button{
+                    display: block;
+                    width: 50%;
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                    padding: 10px;
+                    color: white;
+                    background-color: #8f8e8e;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    font-weight: bold;
+                    transition: opacity 0.2s ease-in-out;
+                }
+                .buy-button:hover{
+                    opacity: 0.6;
+                }
+            }
+        }
+        .podria-gustarte{
+                        margin-left: 3rem;
+                        .titulo-prod{
+                            font-size: 2.5rem;
+                            color: black;
+                            font-weight: bold;
+                        }
+                    }
+
+
     }
+}
+
+.active{
+    opacity: 1 !important;
 }
