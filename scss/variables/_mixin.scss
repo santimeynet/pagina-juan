@@ -9,8 +9,7 @@
     align-items: center;
 }
 
-@mixin img-productos ($bg-image){
-    background-image: $bg-image;
+@mixin img-productos{
     margin-bottom: 1.3rem;
     width: 300px;
     height: 300px;
