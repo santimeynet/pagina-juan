@@ -91,10 +91,10 @@ body{
                     padding-bottom: 100%;
                 }
                 @include img-productos;
-                background-image: url(../../img/med-pouch/med-pouch-uno.PNG);
+                background-image: url(https://github.com/santimeynet/pagina-juan/blob/7bb6b0c99347dd460908a16b52826810cc12bec6/img/med-pouch/med-pouch-uno.PNG);
             }
             .container-img:hover{
-                background-image: url(../../img/med-pouch/med-pouch-dos.png);
+                background-image: url(https://github.com/santimeynet/pagina-juan/blob/7bb6b0c99347dd460908a16b52826810cc12bec6/img/med-pouch/med-pouch-dos.PNG);
             }
             .container-img-dos{
                 @include text-prod;
@@ -103,10 +103,10 @@ body{
                     padding-bottom: 100%;
                 }
                 @include img-productos;
-                background-image: url(../../img/pouch-pistola/pouch-pistola-uno.PNG);
+                background-image: url(https://github.com/santimeynet/pagina-juan/blob/7bb6b0c99347dd460908a16b52826810cc12bec6/img/pouch-pistola/pouch-pistola-uno.PNG);
             }
             .container-img-dos:hover{
-                background-image: url(../../img/pouch-pistola/pouch-pistola-dos.png);
+                background-image: url(https://github.com/santimeynet/pagina-juan/blob/7bb6b0c99347dd460908a16b52826810cc12bec6/img/pouch-pistola/pouch-pistola-dos.PNG);
             }
             .container-img-tres{
                 @include text-prod;
