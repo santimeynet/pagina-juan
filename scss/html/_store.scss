@@ -115,34 +115,34 @@ body{
                     padding-bottom: 100%;
                 }
                 @include img-productos;
-                background-image: url(../../img/cinto-dos/cinto-home.PNG);
+                background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/cinto-dos/cinto-home.PNG);
             }
             .container-img-tres:hover{
-                background-image: url(../../img/cinto-dos/cinto-dos.png);
+                background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/cinto-dos/cinto-dos.PNG);
             }
             .container-img-cuatro{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(../../img/chest-mk4/chest-rig-uno.PNG);
+                background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/chest-mk4/chest-rig-uno.PNG);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-cuatro:hover{
-                background-image: url(../../img/chest-mk4/chest-rig-dos.png);
+                background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/chest-mk4/chest-rig-dos.PNG);
             }
             .container-img-cinco{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(../../img/fpc5/chaleco-home.PNG);
+                background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/fpc5/chaleco-home.PNG);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-cinco:hover{
-                background-image: url(../../img/fpc5/chaleco-dos.png);
+                background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/fpc5/chaleco-dos.PNG);
             }
             .container-img-seis{
                 @include text-prod;
