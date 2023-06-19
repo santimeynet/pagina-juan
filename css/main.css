@@ -215,12 +215,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(https://github.com/santimeynet/pagina-juan/blob/7bb6b0c99347dd460908a16b52826810cc12bec6/img/med-pouch/med-pouch-uno.PNG); }
+      background-image: url(../img/med-pouch/med-pouch-uno.PNG); }
       body .main-store .img-home .container-img .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img:hover {
-      background-image: url(https://github.com/santimeynet/pagina-juan/blob/7bb6b0c99347dd460908a16b52826810cc12bec6/img/med-pouch/med-pouch-dos.PNG); }
+      background-image: url(../img/med-pouch/med-pouch-dos.png); }
     body .main-store .img-home .container-img-dos {
       display: block;
       color: black;
@@ -233,12 +233,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(https://github.com/santimeynet/pagina-juan/blob/7bb6b0c99347dd460908a16b52826810cc12bec6/img/pouch-pistola/pouch-pistola-uno.PNG); }
+      background-image: url(../img/pouch-pistola/pouch-pistola-uno.PNG); }
       body .main-store .img-home .container-img-dos .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-dos:hover {
-      background-image: url(https://github.com/santimeynet/pagina-juan/blob/7bb6b0c99347dd460908a16b52826810cc12bec6/img/pouch-pistola/pouch-pistola-dos.PNG); }
+      background-image: url(../img/pouch-pistola/pouch-pistola-dos.png); }
     body .main-store .img-home .container-img-tres {
       display: block;
       color: black;
@@ -251,12 +251,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/cinto-dos/cinto-home.PNG); }
+      background-image: url(../img/cinto-dos/cinto-home.PNG); }
       body .main-store .img-home .container-img-tres .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-tres:hover {
-      background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/cinto-dos/cinto-dos.PNG); }
+      background-image: url(../img/cinto-dos/cinto-dos.png); }
     body .main-store .img-home .container-img-cuatro {
       display: block;
       color: black;
@@ -269,12 +269,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/chest-mk4/chest-rig-uno.PNG); }
+      background-image: url(../img/chest-mk4/chest-rig-uno.PNG); }
       body .main-store .img-home .container-img-cuatro .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-cuatro:hover {
-      background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/chest-mk4/chest-rig-dos.PNG); }
+      background-image: url(../img/chest-mk4/chest-rig-dos.png); }
     body .main-store .img-home .container-img-cinco {
       display: block;
       color: black;
@@ -287,12 +287,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/fpc5/chaleco-home.PNG); }
+      background-image: url(../img/fpc5/chaleco-home.PNG); }
       body .main-store .img-home .container-img-cinco .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-cinco:hover {
-      background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/fpc5/chaleco-dos.PNG); }
+      background-image: url(../img/fpc5/chaleco-dos.png); }
     body .main-store .img-home .container-img-seis {
       display: block;
       color: black;
@@ -305,12 +305,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(../../img/cinto/cinto-home.PNG); }
+      background-image: url(../img/cinto/cinto-home.PNG); }
       body .main-store .img-home .container-img-seis .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-seis:hover {
-      background-image: url(../../img/cinto/cinto-dos.png); }
+      background-image: url(../img/cinto/cinto-dos.png); }
     body .main-store .img-home .container-img-siete {
       display: block;
       color: black;
@@ -323,12 +323,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(../../img/pouch-cierre/pouch-cierre.PNG); }
+      background-image: url(../img/pouch-cierre/pouch-cierre.PNG); }
       body .main-store .img-home .container-img-siete .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-siete:hover {
-      background-image: url(../../img/pouch-cierre/pouch-cierre.PNG); }
+      background-image: url(../img/pouch-cierre/pouch-cierre.PNG); }
     body .main-store .img-home .container-img-ocho {
       display: block;
       color: black;
@@ -341,12 +341,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(../../img/pouch-cierre/pouch-verde.PNG); }
+      background-image: url(../img/pouch-cierre/pouch-verde.PNG); }
       body .main-store .img-home .container-img-ocho .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-ocho:hover {
-      background-image: url(../../img/pouch-cierre/pouch-verde-dos.png); }
+      background-image: url(../img/pouch-cierre/pouch-verde-dos.png); }
     body .main-store .img-home .container-img-nueve {
       display: block;
       color: black;
@@ -359,12 +359,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(../../img/doble-mag-inserto/doble-mag-uno.PNG); }
+      background-image: url(../img/doble-mag-inserto/doble-mag-uno.PNG); }
       body .main-store .img-home .container-img-nueve .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-nueve:hover {
-      background-image: url(../../img/doble-mag-inserto/doble-mag-dos.png); }
+      background-image: url(../img/doble-mag-inserto/doble-mag-dos.png); }
     body .main-store .img-home .container-img-diez {
       display: block;
       color: black;
@@ -377,12 +377,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(../../img/dangler/dangler-uno.PNG); }
+      background-image: url(../img/dangler/dangler-uno.PNG); }
       body .main-store .img-home .container-img-diez .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-diez:hover {
-      background-image: url(../../img/dangler/dangler-dos.png); }
+      background-image: url(../img/dangler/dangler-dos.png); }
     body .main-store .img-home .container-img-once {
       display: block;
       color: black;
@@ -395,12 +395,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(https://github.com/santimeynet/pagina-juan/blob/722265dcc58590a2ea1035f0a47007a5265e1f0f/img/chest-dos.PNG); }
+      background-image: url(../img/chest-rig-uno/chest-home.png); }
       body .main-store .img-home .container-img-once .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-once:hover {
-      background-image: url(../img/chest-dos.png); }
+      background-image: url(../img/chest-rig-uno/chest-dos.png); }
     body .main-store .img-home .container-img-doce {
       display: block;
       color: black;
@@ -413,12 +413,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(../../img/plate-carrier-slim/plate-carrier.PNG); }
+      background-image: url(../img/plate-carrier-slim/plate-carrier.PNG); }
       body .main-store .img-home .container-img-doce .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-doce:hover {
-      background-image: url(../../img/plate-carrier-slim/plate-carrier-dos.png); }
+      background-image: url(../img/plate-carrier-slim/plate-carrier-dos.png); }
 
 /* media querie para store*/
 @media screen and (max-width: 480px) {

@@ -91,10 +91,10 @@ body{
                     padding-bottom: 100%;
                 }
                 @include img-productos;
-                background-image: url(https://github.com/santimeynet/pagina-juan/blob/7bb6b0c99347dd460908a16b52826810cc12bec6/img/med-pouch/med-pouch-uno.PNG);
+                background-image: url(../img/med-pouch/med-pouch-uno.PNG);
             }
             .container-img:hover{
-                background-image: url(https://github.com/santimeynet/pagina-juan/blob/7bb6b0c99347dd460908a16b52826810cc12bec6/img/med-pouch/med-pouch-dos.PNG);
+                background-image: url(../img/med-pouch/med-pouch-dos.png);
             }
             .container-img-dos{
                 @include text-prod;
@@ -103,10 +103,10 @@ body{
                     padding-bottom: 100%;
                 }
                 @include img-productos;
-                background-image: url(https://github.com/santimeynet/pagina-juan/blob/7bb6b0c99347dd460908a16b52826810cc12bec6/img/pouch-pistola/pouch-pistola-uno.PNG);
+                background-image: url(../img/pouch-pistola/pouch-pistola-uno.PNG);
             }
             .container-img-dos:hover{
-                background-image: url(https://github.com/santimeynet/pagina-juan/blob/7bb6b0c99347dd460908a16b52826810cc12bec6/img/pouch-pistola/pouch-pistola-dos.PNG);
+                background-image: url(../img/pouch-pistola/pouch-pistola-dos.png);
             }
             .container-img-tres{
                 @include text-prod;
@@ -115,118 +115,118 @@ body{
                     padding-bottom: 100%;
                 }
                 @include img-productos;
-                background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/cinto-dos/cinto-home.PNG);
+                background-image: url(../img/cinto-dos/cinto-home.PNG);
             }
             .container-img-tres:hover{
-                background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/cinto-dos/cinto-dos.PNG);
+                background-image: url(../img/cinto-dos/cinto-dos.png);
             }
             .container-img-cuatro{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/chest-mk4/chest-rig-uno.PNG);
+                background-image: url(../img/chest-mk4/chest-rig-uno.PNG);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-cuatro:hover{
-                background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/chest-mk4/chest-rig-dos.PNG);
+                background-image: url(../img/chest-mk4/chest-rig-dos.png);
             }
             .container-img-cinco{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/fpc5/chaleco-home.PNG);
+                background-image: url(../img/fpc5/chaleco-home.PNG);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-cinco:hover{
-                background-image: url(https://github.com/santimeynet/pagina-juan/blob/128b2c319604722ce748f4f3ee8b1fac87c70494/img/fpc5/chaleco-dos.PNG);
+                background-image: url(../img/fpc5/chaleco-dos.png);
             }
             .container-img-seis{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(../../img/cinto/cinto-home.PNG);
+                background-image: url(../img/cinto/cinto-home.PNG);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-seis:hover{
-                background-image: url(../../img/cinto/cinto-dos.png);
+                background-image: url(../img/cinto/cinto-dos.png);
             }
             .container-img-siete{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(../../img/pouch-cierre/pouch-cierre.PNG);
+                background-image: url(../img/pouch-cierre/pouch-cierre.PNG);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-siete:hover{
-                background-image: url(../../img/pouch-cierre/pouch-cierre.PNG);
+                background-image: url(../img/pouch-cierre/pouch-cierre.PNG);
             }
             .container-img-ocho{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(../../img/pouch-cierre/pouch-verde.PNG);
+                background-image: url(../img/pouch-cierre/pouch-verde.PNG);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-ocho:hover{
-                background-image: url(../../img/pouch-cierre/pouch-verde-dos.png);
+                background-image: url(../img/pouch-cierre/pouch-verde-dos.png);
             }
             .container-img-nueve{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(../../img/doble-mag-inserto/doble-mag-uno.PNG);
+                background-image: url(../img/doble-mag-inserto/doble-mag-uno.PNG);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-nueve:hover{
-                background-image: url(../../img/doble-mag-inserto/doble-mag-dos.png);
+                background-image: url(../img/doble-mag-inserto/doble-mag-dos.png);
             }
             .container-img-diez{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(../../img/dangler/dangler-uno.PNG);
+                background-image: url(../img/dangler/dangler-uno.PNG);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-diez:hover{
-                background-image: url(../../img/dangler/dangler-dos.png);
+                background-image: url(../img/dangler/dangler-dos.png);
             }
             .container-img-once{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(https://github.com/santimeynet/pagina-juan/blob/722265dcc58590a2ea1035f0a47007a5265e1f0f/img/chest-dos.PNG);
+                background-image: url(../img/chest-rig-uno/chest-home.png);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-once:hover{
-                background-image: url(../img/chest-dos.png);
+                background-image: url(../img/chest-rig-uno/chest-dos.png);
             }
             .container-img-doce{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(../../img/plate-carrier-slim/plate-carrier.PNG);
+                background-image: url(../img/plate-carrier-slim/plate-carrier.PNG);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-doce:hover{
-                background-image: url(../../img/plate-carrier-slim/plate-carrier-dos.png);
+                background-image: url(../img/plate-carrier-slim/plate-carrier-dos.png);
             }
         }
     }
