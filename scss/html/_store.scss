@@ -48,7 +48,7 @@ body{
     }
     .main-store{
         margin-bottom: 10rem;
-        width: 100vw;
+        width: 98vw;
         .section-titulo-store{
             display: flex;
             @include centrar;
@@ -207,14 +207,14 @@ body{
             .container-img-once{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(../img/chest-rig-uno/chest-home.png);
+                background-image: url(../img/chest-home.png);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-once:hover{
-                background-image: url(../img/chest-rig-uno/chest-dos.png);
+                background-image: url(../img/chest-dos.png);
             }
             .container-img-doce{
                 @include text-prod;

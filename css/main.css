@@ -173,7 +173,7 @@ body header .bg-navbar-store {
 
 body .main-store {
   margin-bottom: 10rem;
-  width: 100vw; }
+  width: 98vw; }
   body .main-store .section-titulo-store {
     display: flex;
     justify-content: center;
@@ -395,12 +395,12 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(../img/chest-rig-uno/chest-home.png); }
+      background-image: url(../img/chest-home.png); }
       body .main-store .img-home .container-img-once .image {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-once:hover {
-      background-image: url(../img/chest-rig-uno/chest-dos.png); }
+      background-image: url(../img/chest-dos.png); }
     body .main-store .img-home .container-img-doce {
       display: block;
       color: black;
