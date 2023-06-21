@@ -382,7 +382,7 @@ body .main-store {
         position: relative;
         padding-bottom: 100%; }
     body .main-store .img-home .container-img-diez:hover {
-      background-image: url(../img/dangler/dangler-dos.png); }
+      background-image: url(../img/dangler/dangler-dos.PNG); }
     body .main-store .img-home .container-img-once {
       display: block;
       color: black;
@@ -395,7 +395,7 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(../img/chest-rig-uno/chest-home.png); }
+      background-image: url(../img/chest-rig-uno/chest-home.PNG); }
       body .main-store .img-home .container-img-once .image {
         position: relative;
         padding-bottom: 100%; }

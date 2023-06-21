@@ -202,12 +202,12 @@ body{
                 }
             }
             .container-img-diez:hover{
-                background-image: url(../img/dangler/dangler-dos.png);
+                background-image: url(../img/dangler/dangler-dos.PNG);
             }
             .container-img-once{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(../img/chest-rig-uno/chest-home.png);
+                background-image: url(../img/chest-rig-uno/chest-home.PNG);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
