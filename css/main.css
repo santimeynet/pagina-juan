@@ -395,7 +395,7 @@ body .main-store {
       background-size: cover;
       background-position: center;
       transition: 0.7s;
-      background-image: url(../img/chest-rig-uno/chest-home.PNG); }
+      background-image: url(../img/chest-rig-uno/chest-home.png); }
       body .main-store .img-home .container-img-once .image {
         position: relative;
         padding-bottom: 100%; }
@@ -421,7 +421,7 @@ body .main-store {
       background-image: url(../img/plate-carrier-slim/plate-carrier-dos.PNG); }
 
 /* media querie para store*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 545px) {
   body header .bg-navbar-store {
     height: 14rem; }
     body header .bg-navbar-store .banner-store div p {

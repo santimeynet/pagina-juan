@@ -207,7 +207,7 @@ body{
             .container-img-once{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(../img/chest-rig-uno/chest-home.PNG);
+                background-image: url(../img/chest-rig-uno/chest-home.png);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
@@ -233,7 +233,7 @@ body{
 }
 
 /* media querie para store*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 545px){
     body{
         header{
             .bg-navbar-store{
