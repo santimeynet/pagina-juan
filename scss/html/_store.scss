@@ -207,14 +207,14 @@ body{
             .container-img-once{
                 @include text-prod;
                 @include img-productos;
-                background-image: url(./img/chest-rig-uno/chest-home.PNG);
+                background-image: url(../img/chest-rig-uno/chest-home.PNG);
                 .image{
                     position: relative;
                     padding-bottom: 100%;
                 }
             }
             .container-img-once:hover{
-                background-image: url(./img/chest-rig-uno/chest-dos.PNG);
+                background-image: url(../img/chest-rig-uno/chest-dos.png);
             }
             .container-img-doce{
                 @include text-prod;
@@ -226,7 +226,7 @@ body{
                 }
             }
             .container-img-doce:hover{
-                background-image: url(../img/plate-carrier-slim/plate-carrier-dos.png);
+                background-image: url(../img/plate-carrier-slim/plate-carrier-dos.PNG);
             }
         }
     }
