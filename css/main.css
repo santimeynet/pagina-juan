@@ -204,6 +204,8 @@ body .main-store {
   body .main-store .img-home {
     justify-content: space-around; }
     body .main-store .img-home .container-img {
+      width: 200px;
+      height: 200px;
       display: block;
       color: black;
       text-align: center;
@@ -216,6 +218,12 @@ body .main-store {
       background-position: center;
       transition: 0.7s;
       background-image: url(../img/med-pouch/med-pouch-uno.PNG); }
+      body .main-store .img-home .container-img #miImagen {
+        width: 100%;
+        height: 100%;
+        transition: 0.5s; }
+      body .main-store .img-home .container-img #miImagen:hover {
+        transform: scale(1.2); }
       body .main-store .img-home .container-img .image {
         position: relative;
         padding-bottom: 100%; }

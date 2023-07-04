@@ -20,3 +20,13 @@ function togglePackageContent() {
     var content = document.getElementById("packageContent");
     content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + "px";
 }
+
+const imagen = document.getElementById('miImagen');
+
+imagen.addEventListener('mouseover', () => {
+  imagen.src = 'imagen2.jpg'; // Cambia la imagen cuando pasas el ratón por encima
+});
+
+imagen.addEventListener('mouseout', () => {
+  imagen.src = 'imagen1.jpg'; // Vuelve a la imagen original cuando el ratón sale de la imagen
+});

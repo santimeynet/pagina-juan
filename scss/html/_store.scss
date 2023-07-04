@@ -85,6 +85,16 @@ body{
         .img-home{
             justify-content: space-around;
             .container-img{
+                width: 200px;
+                height: 200px;
+                #miImagen{
+                    width: 100%;
+                    height: 100%;
+                    transition: 0.5s;
+                }
+                #miImagen:hover{
+                    transform: scale(1.2)
+                }
                 @include text-prod;
                 .image{
                     position: relative;
