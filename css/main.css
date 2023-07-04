@@ -117,9 +117,13 @@ body footer {
     height: 14rem; }
     body header .bg-navbar .banner div p {
       margin-top: 3rem;
-      font-size: 1.6rem; }
+      font-size: 1.2rem; }
+    body header .bg-navbar .nav .div .div-nav .img-logo {
+      width: 40px;
+      height: 40px; }
     body header .bg-navbar .nav .div .div-nav .a-nav {
-      font-size: 1.6rem; }
+      font-size: 1rem;
+      margin-left: 0.8rem; }
     body header .bg-navbar .nav .div .btn-bt {
       font-size: 1.2rem; }
   body main .section-titulo h2 {
