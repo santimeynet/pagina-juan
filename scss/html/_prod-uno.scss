@@ -150,8 +150,34 @@
 /* media querie para producto*/
 @media screen and (max-width: 480px){
     .body-productos{
+        header{
+            .bg-navbar-store{
+                .nav{
+                    .div{
+                        .div-nav{
+                            .img-logo{
+                                width: 40px;
+                                height: 40px;
+                            }
+                            .a-nav{
+                                font-size: 1.2rem;
+                                margin-left: 0.8rem;
+                            }
+                        }
+                    }
+                }
+                .banner-store{
+                    div{
+                        p{
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
         .main_productos{
             display: block;
+            width: 90%;
             .prod-description{
                 display: none;
             }
@@ -174,7 +200,7 @@
                     .prod-nombre{
                         margin-bottom: 3rem;
                         p{
-                            font-size: 2rem;
+                            font-size: 1.7rem;
                         }
                     }
                     .caract{
@@ -182,6 +208,9 @@
                     }
                 }
             }
+        }
+        .main-store{
+            padding-left: 30px;
         }
     }
 }
