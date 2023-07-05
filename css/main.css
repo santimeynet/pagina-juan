@@ -613,9 +613,13 @@ body .main-store {
         width: 80%; }
         .body-productos .main_productos .div-medio .prod .img_prod {
           width: 120%;
-          height: 400px; }
+          height: 400px;
+          margin-left: 2rem; }
         .body-productos .main_productos .div-medio .prod .thumbnail_container {
-          width: 430px; }
+          width: 40px; }
+          .body-productos .main_productos .div-medio .prod .thumbnail_container .thumbnail {
+            width: 3.5rem;
+            height: 3.5rem; }
       .body-productos .main_productos .div-medio .prod-caract {
         width: 90%;
         margin-left: 1rem; }
@@ -626,4 +630,4 @@ body .main-store {
         .body-productos .main_productos .div-medio .prod-caract .caract {
           margin-top: 3rem; }
   .body-productos .main-store {
-    padding-left: 30px; } }
+    width: 0px; } }

@@ -189,9 +189,14 @@
                     .img_prod{
                         width: 120%;
                         height: 400px;
+                        margin-left: 2rem;
                     }
                     .thumbnail_container{
-                        width: 430px;
+                        width: 40px;
+                        .thumbnail{
+                            width: 3.5rem;
+                            height: 3.5rem;
+                        }
                     }
                 }
                 .prod-caract{
@@ -210,7 +215,7 @@
             }
         }
         .main-store{
-            padding-left: 30px;
+            width: 0px;
         }
     }
 }
