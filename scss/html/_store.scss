@@ -86,6 +86,14 @@ body{
             justify-content: space-around;
             .container-img{
                 @include text-prod;
+                div{
+                    .add-to-cart-btn{
+                        @include boton;
+                    }
+                    .add-to-cart-btn:hover{
+                        background-color: #555;
+                    }
+                }
                 .image{
                     position: relative;
                     padding-bottom: 100%;
@@ -98,6 +106,14 @@ body{
             }
             .container-img-dos{
                 @include text-prod;
+                div{
+                    .add-to-cart-btn{
+                        @include boton;
+                    }
+                    .add-to-cart-btn:hover{
+                        background-color: #555;
+                    }
+                }
                 .image{
                     position: relative;
                     padding-bottom: 100%;
@@ -110,6 +126,14 @@ body{
             }
             .container-img-tres{
                 @include text-prod;
+                div{
+                    .add-to-cart-btn{
+                        @include boton;
+                    }
+                    .add-to-cart-btn:hover{
+                        background-color: #555;
+                    }
+                }
                 .image{
                     position: relative;
                     padding-bottom: 100%;
@@ -122,6 +146,14 @@ body{
             }
             .container-img-cuatro{
                 @include text-prod;
+                div{
+                    .add-to-cart-btn{
+                        @include boton;
+                    }
+                    .add-to-cart-btn:hover{
+                        background-color: #555;
+                    }
+                }
                 @include img-productos;
                 background-image: url(../img/chest-mk4/chest-rig-uno.PNG);
                 .image{
@@ -134,6 +166,14 @@ body{
             }
             .container-img-cinco{
                 @include text-prod;
+                div{
+                    .add-to-cart-btn{
+                        @include boton;
+                    }
+                    .add-to-cart-btn:hover{
+                        background-color: #555;
+                    }
+                }
                 @include img-productos;
                 background-image: url(../img/fpc5/chaleco-home.PNG);
                 .image{
@@ -146,6 +186,14 @@ body{
             }
             .container-img-seis{
                 @include text-prod;
+                div{
+                    .add-to-cart-btn{
+                        @include boton;
+                    }
+                    .add-to-cart-btn:hover{
+                        background-color: #555;
+                    }
+                }
                 @include img-productos;
                 background-image: url(../img/cinto/cinto-home.PNG);
                 .image{
@@ -158,6 +206,14 @@ body{
             }
             .container-img-siete{
                 @include text-prod;
+                div{
+                    .add-to-cart-btn{
+                        @include boton;
+                    }
+                    .add-to-cart-btn:hover{
+                        background-color: #555;
+                    }
+                }
                 @include img-productos;
                 background-image: url(../img/pouch-cierre/pouch-cierre.PNG);
                 .image{
@@ -170,6 +226,14 @@ body{
             }
             .container-img-ocho{
                 @include text-prod;
+                div{
+                    .add-to-cart-btn{
+                        @include boton;
+                    }
+                    .add-to-cart-btn:hover{
+                        background-color: #555;
+                    }
+                }
                 @include img-productos;
                 background-image: url(../img/pouch-cierre/pouch-verde.PNG);
                 .image{
@@ -182,6 +246,14 @@ body{
             }
             .container-img-nueve{
                 @include text-prod;
+                div{
+                    .add-to-cart-btn{
+                        @include boton;
+                    }
+                    .add-to-cart-btn:hover{
+                        background-color: #555;
+                    }
+                }
                 @include img-productos;
                 background-image: url(../img/doble-mag-inserto/doble-mag-uno.PNG);
                 .image{
@@ -194,6 +266,14 @@ body{
             }
             .container-img-diez{
                 @include text-prod;
+                div{
+                    .add-to-cart-btn{
+                        @include boton;
+                    }
+                    .add-to-cart-btn:hover{
+                        background-color: #555;
+                    }
+                }
                 @include img-productos;
                 background-image: url(../img/dangler/dangler-uno.PNG);
                 .image{
@@ -206,6 +286,14 @@ body{
             }
             .container-img-once{
                 @include text-prod;
+                div{
+                    .add-to-cart-btn{
+                        @include boton;
+                    }
+                    .add-to-cart-btn:hover{
+                        background-color: #555;
+                    }
+                }
                 @include img-productos;
                 background-image: url(../img/chest-rig-uno/chest-home.PNG);
                 .image{
@@ -218,6 +306,14 @@ body{
             }
             .container-img-doce{
                 @include text-prod;
+                div{
+                    .add-to-cart-btn{
+                        @include boton;
+                    }
+                    .add-to-cart-btn:hover{
+                        background-color: #555;
+                    }
+                }
                 @include img-productos;
                 background-image: url(../img/plate-carrier-slim/plate-carrier.PNG);
                 .image{
