@@ -49,6 +49,12 @@ body{
     .main-store{
         margin-bottom: 10rem;
         width: 98vw;
+        .img-carro{
+            .img-carrito{
+                position: absolute;
+                right: 2rem;
+            }
+        }
         .section-titulo-store{
             display: flex;
             @include centrar;
