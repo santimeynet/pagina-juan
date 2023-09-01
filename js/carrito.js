@@ -27,11 +27,32 @@ const pintarCarrito =  () => {
             <img src="${product.img}">
             <h3>${product.nombre}</h3>
             <p>USD$${product.precio}</p>
+            <span class="restar"> - </span>
             <p>${product.cantidad}</p>
+            <span class="sumar"> + </span>
             <p>Total: $${product.precio * product.cantidad}</p>
         `;
         modalContainer.append(carritoContent);
         
+        let restar = carritoContent.querySelector(".restar");
+
+        restar.addEventListener("click", () =>{
+            if(product.cantidad !==1){
+               product.cantidad-- 
+            }
+            saveLocal();
+            pintarCarrito();
+        })
+        
+        let sumar = carritoContent.querySelector(".sumar");
+
+        sumar.addEventListener("click", () =>{
+            product.cantidad++
+            saveLocal();
+            pintarCarrito();
+        })
+        
+
         let eliminar = document.createElement("span");
 
         eliminar.className = "delete-product";
@@ -42,14 +63,13 @@ const pintarCarrito =  () => {
         eliminar.addEventListener("click", eliminarProducto);
     });
 
-
-
     const total = carrito.reduce((acc, el) => acc + el.precio * el.cantidad, 0);
 
     const totalComprado = document.createElement("div");
     totalComprado.className = 'total-content';
     totalComprado.innerHTML =`Total a pagar: USD$${total}`;
     modalContainer.append(totalComprado);
+
 }
 
 verCarrito.addEventListener("click", pintarCarrito);
@@ -66,6 +86,8 @@ const eliminarProducto = (event) => {
             carrito.splice(indexAEliminar, 1);
         }
     }
-
+    carritoCounter();
+    saveLocal();
     pintarCarrito();
 };
+
