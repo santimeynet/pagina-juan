@@ -75,19 +75,20 @@ const pintarCarrito =  () => {
 verCarrito.addEventListener("click", pintarCarrito);
 
 const eliminarProducto = (event) => {
-
     const idAEliminar = parseInt(event.target.getAttribute("data-id"));
     const indexAEliminar = carrito.findIndex((product) => product.id === idAEliminar);
 
     if (indexAEliminar !== -1) {
         if (carrito[indexAEliminar].cantidad > 1) {
-            carrito[indexAEliminar].cantidad--;
+            carrito[indexAEliminar].cantidad = 0;
         } else {
             carrito.splice(indexAEliminar, 1);
         }
     }
+    carrito = carrito.filter((product) => product.cantidad > 0);
     carritoCounter();
     saveLocal();
     pintarCarrito();
 };
+
 
